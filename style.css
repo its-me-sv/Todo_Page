@@ -1,0 +1,154 @@
+html,body {
+  min-width: 290px;
+  background-color: #ffffff;
+  font-family: 'Lobster', Arial;
+  line-height: 1.5;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color: black;
+  margin: 0;
+}
+h1{
+	text-align: center;
+	font-size: 4rem;
+	margin: 14px;
+}
+hr{
+	border-radius: 20px;
+	height: 7px;
+	background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+.text-gradient{
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: Lobster;
+	margin-left: auto;margin-right: auto;
+}
+.grad1{
+	background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.cont1{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inp-box{
+	margin-top: 35px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    padding: 20px;
+    border: 4px solid crimson;
+    border-radius: 20px;
+max-width: 80vw;
+}
+label{
+	font-size: 30px;
+	margin: 5px;
+}
+#task-title{
+	width: 400px;
+	height: 2rem;
+	max-width: 80vw;
+}
+input{
+	font-size: 2rem;
+}
+#task-descreption{
+	width: 400px;
+	font-size: 2rem;
+	height: 6rem;
+	max-width: 80vw;
+}
+input[type=submit]{
+	padding: 7px;
+	background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+	border-radius: 20px;
+	width: 100%;
+	font-family: Lobster;
+	outline: none;
+}
+.grid-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.box{
+	border: 4px solid yellow;
+	font-size:2em;
+	padding: 7px;
+    margin: 30px;
+	border-radius:1rem;
+	transition: all 0.3s linear;
+	overflow-wrap: break-word;
+	max-width: 80vw;
+}
+.box h1{
+	text-align: center;
+	margin: 0px;
+	font-size: 4rem;
+	color: white;
+}
+.box h2{
+	margin:0px;
+	font-weight: normal;
+	font-size: 2rem;
+}
+.box p{
+	margin: 0px;
+	text-align: right;
+}
+.box button{
+	margin-top: 14px;
+	padding: 7px;
+	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+	border-radius: 20px;
+	width: auto;
+	font-family: Lobster;
+	outline: none;
+	font-size: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.box:hover{
+	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+}
+.grad-insta{
+	background-image: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);
+}
+.grad-blue{
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+.grad-green{
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.grad-yellow{
+	background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.grad-purple{
+	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.grad-baby-pink{
+	background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+.grad-sea-blue{
+	background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+.grad-sweet{
+	background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+}
+.grad-love{
+	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+.grad-phoneix{
+	background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+.grad-cobra-green{
+	background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+}
+.grad-white{
+	background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
